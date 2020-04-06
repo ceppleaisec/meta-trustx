@@ -18,6 +18,7 @@ PACKAGE_INSTALL = "\
 	rattestation \
 	stunnel \
 	openssl-tpm2-engine \
+	sc-hsm \
 	e2fsprogs-mke2fs \
 	e2fsprogs-e2fsck \
 	btrfs-tools \

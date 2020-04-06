@@ -1,0 +1,25 @@
+From 118aaa922eda3ccaed7be57988711e3b3abbc998 Mon Sep 17 00:00:00 2001
+From: Christian <christian.epple@aisec.fraunhofer.de>
+Date: Mon, 6 Apr 2020 18:28:29 +0200
+Subject: [PATCH] Makefile.am: install key-generator example
+
+---
+ src/examples/key-generator/Makefile.am | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/examples/key-generator/Makefile.am b/src/examples/key-generator/Makefile.am
+index c44629f..13584ca 100644
+--- a/src/examples/key-generator/Makefile.am
++++ b/src/examples/key-generator/Makefile.am
+@@ -1,7 +1,7 @@
+ MAINTAINERCLEANFILES = $(srcdir)/Makefile.in
+ 
+ if ENABLE_CTAPI
+-noinst_PROGRAMS = key-generator
++bin_PROGRAMS = key-generator
+ 
+ AM_CPPFLAGS = -I$(top_srcdir)/src
+ 
+-- 
+2.20.1
+
